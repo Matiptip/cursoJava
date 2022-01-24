@@ -1,3 +1,7 @@
+/*Saludo*/
+
+alert("Hola! porfavor, introduce un numero y te diremos si es primo o no")
+
 /*Variables*/
 let numero = (prompt("Introduce un numero"));
 let primo = true;
@@ -8,7 +12,7 @@ if (numero === 1 || numero === 0) {
 }
 
 
-/*Ciclo: definicion de numero primo (Solo funciona con positivos)*/
+/*Ciclo: (Solo funciona con positivos)*/
 else if (numero > 1) {
 
     for (let i = 2; i < numero; i++) {
