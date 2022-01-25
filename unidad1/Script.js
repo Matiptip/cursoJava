@@ -3,7 +3,7 @@
 alert("Hola! porfavor, introduce un numero y te diremos si es primo o no")
 
 /*Variables*/
-let numero = (prompt("Introduce un numero");
+let numero = (prompt("Introduce un numero"));
 let primo = true;
 
 /*Exepciones*/
