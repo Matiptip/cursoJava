@@ -145,6 +145,7 @@ if(petPurchess==2){
 if(petPurchess==3){
     protagonist.myPets.push(bird);
     pets.pop();
+    protagonist.myPets[0].name = "Gertrudis";
     alert('"Gertrudis no reconocerá otro nombre que no sea el propio"te dice el mercader mientras a los empujones te echa de la tienda"NO DEVOLUCIONES"')
     alert('Gertudris se posa en tu hombro y no deja de buscar tu contacto visual, interponiéndose en tu campo visual. Esta será una relación curiosa')
     endParch()
